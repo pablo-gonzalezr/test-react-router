@@ -6,7 +6,6 @@ import Navbar from './components/Navbar';
 function App() {
   return (
     <Router>
-      <h1>My web</h1>
       <Navbar />
       <Switch>
         <Route path="/" />
