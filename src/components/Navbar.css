@@ -46,7 +46,7 @@
   justify-content: center;
   list-style: none;
   text-align: center;
-  justify-content: end;
+  justify-content: flex-start;
 }
 
 .nav-item {
@@ -125,7 +125,7 @@
     position: absolute;
     top: 0;
     left: 0;
-    transform: translate(25%, 50%);
+    transform: translate(10%, 50%);
   }
 
   .menu-icon {

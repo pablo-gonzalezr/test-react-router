@@ -43,7 +43,10 @@ function HeroSection({
                 >
                   {description}
                 </p>
-                <Link to="/sign-up">
+                <Link
+                  to={"//reactrouter.com/web/guides/quick-start"}
+                  target="_blank"
+                >
                   <Button buttonSize="btn--wide" buttonColor="blue">
                     {buttonLabel}
                   </Button>
